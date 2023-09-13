@@ -3,17 +3,23 @@
     padding: 0;
 }
 
-body{
+body {
     background-color: rgba(205, 241, 247, 0.829);
     overflow: hidden;
 }
 
-div{
+div {
     text-align: center;
 }
 
-.surprise-image{
+.surprise-image {
     height: 100vh;
     width: auto;
 }
 
+@media (max-width: 800px) {
+    .surprise-image {
+        width: 100vw;
+        height: auto;
+    }
+}
